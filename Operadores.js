@@ -1,6 +1,6 @@
-var a = 5;
+/*var a = 5;
 var b = 10;
-var c = 15;
+var c = 15;*/
 // Comentarios sencillos (1 linea) 
 /**
  * Comentarios multilinea
@@ -50,6 +50,8 @@ var a = 40;
 var b = 35;
 var c = 10;
 var d = 50;
+var e = 5;
+var f = 20;
 
 //multiplicación
 console.log(a * c)
@@ -67,4 +69,18 @@ console.log(d - a)
 console.log(b / c)
 console.log(c / b)
 
-// 
+//Modulo
+console.log(f % e)
+console.log(e % f)
+
+//Incremento
+a++;
+console.log(a)
+b++;
+console.log(b)
+
+//Decremento
+c--;
+console.log(c)
+d--;
+console.log(d)

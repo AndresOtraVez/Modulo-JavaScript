@@ -92,6 +92,11 @@ var a = 20
 var b = 30
 var c = 5
 var d = 5
+var e = ""
+var f = {}
+var g = null
+var h = undefined
+var i = "HelloWorld"
 
 //Igualdad
 if (a == b) {
@@ -102,9 +107,9 @@ if (a == b) {
 
 //Diferente 
 if (a != b) {
-    console.log("El número es igual")
+    console.log("Número Diferente")
  } else {
-      console.log("El número es diferente")
+      console.log("Número Igual")
     }
 
 //EstrictamenteIguales
@@ -137,17 +142,69 @@ if (a < b) {
 
 //MayorOIgualQue
 if (c >= d) {
-    console.log('c >= d Verdadero')
+    console.log('Verdadero')
 } else {
-    console.log('c >= d Falso')
+    console.log('Falso')
 }
 
 //MenorOIgualQue
 if (c <= d) {
-    console.log('c <= d Verdadero')
-} else {
-    console.log('c <= d Falso')
+    console.log('Verdadero')
+ } else {
+    console.log('Falso')
 }
+
+//Truthy
+if (f) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+if (i) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+if (a) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+//Falsey
+
+if (e) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+if (g) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+if (h) {
+    console.log('Truthy')
+} else {
+    console.log('Falsey')
+}
+
+
+// Condiciones ternarias 
+// La condición regular la podemos representar de la siguiente manera
+// if (a === a){
+//    console.log(1)
+//}else{
+//    console.log(2)
+//}
+
+// Condicion terminaria se puede representar de la siguiente manera
+
+a === a ? 1 : 0
 
 
 /*switch (mes) {
@@ -177,22 +234,22 @@ var color = 'rojo'
 
 switch (color) {
     case 'azul':
-        console.log('colorazul')
+        console.log('color azul')
         break
     case 'verde':
-        console.log('colorverder')
+        console.log('color verder')
         break
     case 'amarillo':
-        console.log('coloramarillo')
+        console.log('color amarillo')
         break
     case 'morado':
-        console.log('colormorado')
+        console.log('color morado')
         break
     case 'cafe':
-        console.log('colorcafe')
+        console.log('color cafe')
         break
     case 'rojo':
-        console.log('colorrojo')
+        console.log('color rojo')
         break
     default:
         console.log('color no fue encontrado')
